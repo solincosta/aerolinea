@@ -32,7 +32,7 @@ export default {
 .overlay{
     position: absolute;
     top: 9rem;
-    left: 7rem;
+     left: 7rem;
     z-index: 10;
     width: 40%;
     text-align: center;

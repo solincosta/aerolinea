@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import InicioView from '../views/InicioView.vue'
+import DestinoView from '../views/DestinoView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'inicio',
     component: InicioView
+  },
+  {
+    path: '/destino/:id',
+    name: 'DestinoView',
+    component: DestinoView
   },
   {
     path: '/about',
